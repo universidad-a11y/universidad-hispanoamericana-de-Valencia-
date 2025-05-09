@@ -1,13 +1,132 @@
+
 body {
-  background-color: #f0f0f0;
-  text-align: center;
-  font-family: Arial;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #222;
 }
 
-h1 {
-  color: darkblue;
+.top-bar {
+    background-color: #e84e0f;
+    color: white;
+    padding: 10px 20px;
+    text-align: right;
+    font-size: 14px;
 }
 
-p {
-  font-size: 18px;
+.info-button {
+    background-color: #4a1571;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.logo-bar {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #002d5b;
+    font-weight: bold;
+}
+
+.hero-banner {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-banner h1 {
+    font-size: 32px;
+    color: #002d5b;
+}
+
+.hero-banner p {
+    font-size: 18px;
+    color: #444;
+}
+
+.oferta-formativa {
+    padding: 40px 5%;
+    text-align: center;
+}
+
+.oferta-formativa h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    flex: 1 1 30%;
+    max-width: 32%;
+    background: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.card-content h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #222;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #555;
+}
+
+.categoria {
+    font-size: 12px;
+    font-weight: bold;
+    color: #e84e0f;
+}
+
+footer {
+    background-color: #002d5b;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
